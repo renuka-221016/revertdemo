@@ -15,6 +15,7 @@ if ($result){
     if($num>0){
         echo "USERNAME ALREADY EXISTS"."<br>";
         echo "Feature Added ";
+        echo "feature -1 added";
 }
 else
     {
