@@ -12,11 +12,12 @@ $sql="select * from users where username='$username'";
 $result=mysqli_query($con,$sql);
 $num=mysqli_num_rows($result);
 if ($result){
-    /*if($num>0){
+    if($num>0){
         echo "USERNAME ALREADY EXISTS"."<br>";
-}*/
-
-    
+        echo "Feature Added ";
+}
+else
+    {
     if (isset($_POST['username']) && isset($_POST['password']))
 {
     $sql="insert into users(username,password) values ('$username','$password')";
@@ -33,7 +34,7 @@ else{
 }
     }
 }
-
+}
 ?>
 <!DOCTYPE html>
 <html>
