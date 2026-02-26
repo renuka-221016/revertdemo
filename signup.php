@@ -16,6 +16,7 @@ if ($result){
         echo "USERNAME ALREADY EXISTS"."<br>";
         echo "Feature Added ";
         echo "feature -1 added";
+        echo "feature -2 added";
 }
 else
     {
