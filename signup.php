@@ -17,6 +17,7 @@ if ($result){
         echo "Feature Added ";
         echo "feature -1 added";
         echo "feature -2 added";
+        echo "feature -3 added";
 }
 else
     {
