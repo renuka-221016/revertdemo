@@ -14,7 +14,7 @@ $num=mysqli_num_rows($result);
 if ($result){
     if($num>0){
         echo "USERNAME ALREADY EXISTS"."<br>";
-        
+        echo "Feature Added ";
 }
 else
     {
